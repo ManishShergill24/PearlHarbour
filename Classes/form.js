@@ -12,13 +12,14 @@ display(){
 this.title.html("The Attack on Pearl Harbour")
 this.title.position(600,100);
 
-this.input.position(600,400);
-this.button.position(600,600);
+this.nameInput.position(600,200);
+this.button.position(600,250);
 
 this.button.mousePressed(()=>{
     this.nameInput.hide();
     this.button.hide();
-    this.greeting.html("Hello " + player.name)
+    playerName = this.nameInput.value();
+    this.greeting.html("Hello " + playerName)
     this.greeting.position(displayWidth/2 - 70, displayHeight/4);
   });
 
