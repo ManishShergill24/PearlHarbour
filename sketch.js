@@ -16,7 +16,7 @@ world = engine.world;
 }
 
 function draw(){
-background("lime")
+background("white")
 Engine.update(engine);
 
 //player.display();
