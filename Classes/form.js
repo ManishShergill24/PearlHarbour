@@ -19,7 +19,7 @@ this.button.mousePressed(()=>{
     this.nameInput.hide();
     this.button.hide();
     playerName = this.nameInput.value();
-    this.greeting.html("Hello " + playerName)
+    this.greeting.html("Hello " + playerName +", Please Wait till we start the game")
     this.greeting.position(displayWidth/2 - 70, displayHeight/4);
   });
 
